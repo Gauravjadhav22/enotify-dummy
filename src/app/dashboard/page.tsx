@@ -1,16 +1,3 @@
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/breadcrumb"
-import { Separator } from "@/components/separator"
-import {
-  SidebarInset,
-  SidebarTrigger,
-} from "@/components/Sidebar"
 
 export default function Page() {
   return (

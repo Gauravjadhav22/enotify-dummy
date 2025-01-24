@@ -94,9 +94,9 @@ export const CustomTooltip2 = ({
                 {category === "Quotes"
                   ? formatters.unit(data[category])
                   : formatters.currency({
-                      number: data[category],
-                      maxFractionDigits: 0,
-                    })}
+                    number: data[category],
+                    maxFractionDigits: 0,
+                  })}
               </p>
             </div>
           </li>
@@ -185,7 +185,7 @@ export const CustomTooltip3 = ({ payload, active }: TooltipProps) => {
               Peer avg.
             </span>
           </div>
-          <span className="text-xs font-medium text-gray-600 dark:text-gray-400">
+          <span className="text-xs font-medium ">
             {formattedDiff}
           </span>
         </div>

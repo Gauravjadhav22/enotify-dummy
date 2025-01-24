@@ -85,7 +85,7 @@ export default function Employees() {
         </fieldset>
         <div className="mt-6 flex justify-between">
           <Button type="button" variant="ghost" asChild>
-            <Link href="/auth/onboarding/infrastructure">Back</Link>
+            <Link href="/auth/onboarding/products">Back</Link>
           </Button>
           <Button
             className="disabled:bg-gray-200 disabled:text-gray-500"

@@ -92,7 +92,7 @@ export default function Overview() {
                     className="bg-gray-50 py-3 pl-4 sm:pl-6 dark:bg-gray-900"
                   >
                     {quote.region}
-                    <span className="ml-2 font-medium text-gray-600 dark:text-gray-400">
+                    <span className="ml-2 font-medium ">
                       {quote.project.length}
                     </span>
                   </TableHeaderCell>

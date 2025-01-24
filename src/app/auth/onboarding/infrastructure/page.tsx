@@ -226,7 +226,7 @@ export default function PricingCalculator() {
     setLoading(true)
     setTimeout(() => {
       console.log("Form submitted")
-      router.push("/dashboard/quotes/overview")
+      router.push("/reports")
     }, 1200)
   }
 

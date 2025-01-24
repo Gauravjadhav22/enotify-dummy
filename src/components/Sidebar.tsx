@@ -265,7 +265,7 @@ const SidebarTrigger = React.forwardRef<
       ref={ref}
       data-sidebar="trigger"
       className={cx(
-        "group inline-flex rounded-md p-1.5 hover:bg-gray-200/50 hover:dark:bg-gray-900",
+        "group inline-flex rounded-md p-1.5 ",
         focusRing,
       )}
       onClick={(event) => {
@@ -275,7 +275,7 @@ const SidebarTrigger = React.forwardRef<
       {...props}
     >
       <PanelLeft
-        className="size-[18px] shrink-0 text-gray-700 dark:text-gray-300"
+        className="size-[18px] shrink-0"
         aria-hidden="true"
       />
       <span className="sr-only">Toggle Sidebar</span>
