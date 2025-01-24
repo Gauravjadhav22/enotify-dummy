@@ -1,0 +1,9 @@
+.PhoneInputInput {
+    background: transparent;
+}
+.PhoneInputCountrySelect{
+    background: transparent;
+    padding: 5px;
+    border: none;
+    color: black;
+}
