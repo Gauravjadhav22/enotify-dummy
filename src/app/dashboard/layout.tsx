@@ -26,9 +26,9 @@ export default async function RootLayout({
 
   console.log("user", user);
 
-  if (!user) {
-    return redirect("/auth/login");
-  }
+  // if (!user) {
+  //   return redirect("/auth/login");
+  // }
   const cookieStore = await cookies()
   const defaultOpen = cookieStore.get("sidebar:state")?.value === "true"
 
