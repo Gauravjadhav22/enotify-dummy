@@ -7,6 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/Accordion"
 import { Button } from "@/components/Button"
+import { CompanyForm } from "@/components/company-form"
 import { Input } from "@/components/Input"
 import { sections } from "@/data/data"
 import { RiCheckboxCircleFill, RiErrorWarningFill } from "@remixicon/react"
@@ -27,21 +28,29 @@ export default function Audits() {
   return (
     <section aria-label="Audits overview">
       <div className="flex flex-col items-center justify-between gap-2 p-6 sm:flex-row">
+
         <Input
           type="search"
           placeholder="Search audits..."
           className="sm:w-64 [&>input]:py-1.5"
         />
-        <Button
-          variant="secondary"
-          className="w-full gap-2 py-1.5 text-base sm:w-fit sm:text-sm"
-        >
-          <SlidersHorizontal
-            className="-ml-0.5 size-4 shrink-0 text-gray-400 dark:text-gray-600"
-            aria-hidden="true"
-          />
-          Filters
-        </Button>
+        <div className="flex items-center justify-between gap-4">
+          <CompanyForm />
+
+          <Button
+            variant="secondary"
+            className="w-full gap-2 py-1.5 text-base sm:w-fit sm:text-sm"
+          >
+            <SlidersHorizontal
+              className="-ml-0.5 size-4 shrink-0 text-gray-400 dark:text-gray-600"
+              aria-hidden="true"
+            />
+            Filters
+          </Button>
+
+        </div>
+
+
       </div>
       <div className="border-t border-gray-200 px-6 pb-6 dark:border-gray-800">
         <Accordion type="multiple" className="mt-3">

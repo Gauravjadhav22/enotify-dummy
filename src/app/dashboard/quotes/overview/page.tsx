@@ -1,6 +1,7 @@
 "use client"
 import { Badge } from "@/components/Badge"
 import { Button } from "@/components/Button"
+import { CompanyForm } from "@/components/company-form"
 import { Input } from "@/components/Input"
 import {
   Select,
@@ -47,7 +48,11 @@ export default function Overview() {
           placeholder="Search quotes..."
           className="sm:w-64 [&>input]:py-1.5"
         />
+        
         <div className="flex flex-col items-center gap-2 sm:flex-row">
+        <div>
+          <CompanyForm />
+        </div>
           <Select>
             <SelectTrigger className="w-full py-1.5 sm:w-44">
               <SelectValue placeholder="Assigned to..." />
