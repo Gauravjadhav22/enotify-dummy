@@ -10,7 +10,7 @@ import {
   CommandItem,
   CommandList,
 } from "./command";
-import { Input } from "./new-input";
+import { Input } from "./Input";
 import { Popover, PopoverAnchor, PopoverContent } from "./popover";
 import { Skeleton } from "./Skeleton";
 

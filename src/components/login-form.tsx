@@ -125,7 +125,7 @@ export function LoginForm({
               </div>
             </div>
           </form>
-          <div className="relative hidden bg-muted md:block">
+          <div className="relative hidden bg-background md:block">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/placeholder.svg"

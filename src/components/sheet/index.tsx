@@ -1,4 +1,4 @@
-import { Button } from "../new-button";
+import { Button } from "../Button";
 import {
     Sheet,
     SheetContent,
@@ -19,7 +19,8 @@ const Drawer = ({ triggerText, title, description, children }: DrawerProps) => {
     return (
         <Sheet>
             <SheetTrigger>
-                <Button className="">
+                <Button    variant="secondary"
+            className="w-full gap-2 py-1.5 text-base sm:w-fit sm:text-sm">
                     {triggerText ?? 'open'}
 
                 </Button>
