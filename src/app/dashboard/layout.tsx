@@ -23,12 +23,6 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const user = await getUser();
-
-  console.log("user", user);
-
-  // if (!user) {
-  //   return redirect("/auth/login");
-  // }
   const cookieStore = await cookies()
   const defaultOpen = cookieStore.get("sidebar:state")?.value === "true"
 
